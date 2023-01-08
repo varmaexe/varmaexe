@@ -3,7 +3,7 @@
 - 🔭 I'm a self-taught software developer.
 - 🌱 I've strong knowledge of Go programming language. I aspire to write scalabe, robust, testable, efficient and easily maintainable code.
 - with this knowledge I want to play a key role in architectural and design decisions, building toward efficient mircroservices distributed architecture. 
-- 👯 I'm looking to collaborate with people who are intrested in building cool projects me.
+- 👯 I'm looking to collaborate with people who are intrested in building cool projects with me.
 - 📫 Reach me @vectorvarma0303@gmail.com.
 - ⚡ Fun fact: I'm a book lover. Gift me a self-improvement book and I'll treat you a cookie :)
 <!--
