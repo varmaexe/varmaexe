@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=220&section=header&text=SAI&fontSize=100&fontColor=00b4d8&animation=twinkling&fontAlignY=55&desc=%2F%2F%20Go%20Backend%20Dev%20%7C%20Microservices%20%7C%20Cloud%20Native&descAlignY=78&descSize=16&descColor=00fff5" width="100%"/>
+<img src="./assets/banner.svg" width="100%"/>
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=3&section=header" width="100%"/>
 
 ## `// about.go`
 
@@ -42,52 +42,37 @@ func main() {
 		Stack:       []string{"Go", "Gin", "GORM", "SQL Server", "Microservices"},
 		Learning:    []string{"Kubernetes", "Docker", "Next.js", "React"},
 		SideProject: "AI-powered fitness coaching CLI (Go + Claude Code)",
-		// Mantra: "Reduce 100 DB queries to 1. Always."
+		Mantra:      "Reduce 100 DB queries to 1. Always.",
 	}
 	fmt.Printf("Building things that scale: %+v\n", me)
 }
 ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## `// skills.proficiency`
-
-<div align="center">
-
-![Go](https://img.shields.io/badge/Go-92%25-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=020c10)
-![Microservices](https://img.shields.io/badge/Microservices-90%25-00B4D8?style=flat-square&labelColor=020c10)
-![SQL/GORM](https://img.shields.io/badge/SQL%2FGORM-88%25-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white&labelColor=020c10)
-![Docker](https://img.shields.io/badge/Docker-65%25-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=020c10)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-45%25-326CE5?style=flat-square&logo=kubernetes&logoColor=white&labelColor=020c10)
-![Next.js](https://img.shields.io/badge/Next.js-35%25-ffffff?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=020c10)
-
-</div>
-
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=3&section=header" width="100%"/>
 
 ## `// stack.icons`
 
 <div align="center">
 
-**CORE**
+![](https://img.shields.io/badge/CORE-023e8a?style=flat-square&labelColor=020c10&color=023e8a)
 
 <img src="https://skillicons.dev/icons?i=go,postgres,mysql,linux,git,github,vscode,bash&theme=dark&perline=8" />
 
-**CLOUD & DEVOPS**
+![](https://img.shields.io/badge/CLOUD_%26_DEVOPS-023e8a?style=flat-square&labelColor=020c10&color=023e8a)
 
 <img src="https://skillicons.dev/icons?i=kubernetes,docker,nginx&theme=dark&perline=8" />
 
-**FRONTEND** *(LEARNING)*
+![](https://img.shields.io/badge/FRONTEND_%28LEARNING%29-023e8a?style=flat-square&labelColor=020c10&color=023e8a)
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,html,css&theme=dark&perline=8" />
 
-**TOOLS**
+![](https://img.shields.io/badge/TOOLS-023e8a?style=flat-square&labelColor=020c10&color=023e8a)
 
 <img src="https://skillicons.dev/icons?i=postman,python,vim&theme=dark&perline=8" />
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=3&section=header" width="100%"/>
 
 ## `// currently_building`
 
@@ -101,7 +86,7 @@ func main() {
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=3&section=header" width="100%"/>
 
 ## `// highlight_work`
 
@@ -146,7 +131,7 @@ $ cat workout_log.txt | claude --coaching-mode
 
 </details>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=3&section=header" width="100%"/>
 
 ## `// contribution_snake`
 
@@ -158,7 +143,7 @@ $ cat workout_log.txt | claude --coaching-mode
   </picture>
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=3&section=header" width="100%"/>
 
 <div align="center">
 

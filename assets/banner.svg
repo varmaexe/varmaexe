@@ -1,0 +1,142 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fall {
+        0%   { transform: translateY(-220px); opacity: 0; }
+        8%   { opacity: 0.55; }
+        88%  { opacity: 0.3; }
+        100% { transform: translateY(220px); opacity: 0; }
+      }
+      @keyframes glow-pulse {
+        0%, 100% {
+          filter: drop-shadow(0 0 6px #00b4d8) drop-shadow(0 0 14px #023e8a);
+          fill: #00b4d8;
+        }
+        50% {
+          filter: drop-shadow(0 0 18px #00fff5) drop-shadow(0 0 36px #00b4d8);
+          fill: #00fff5;
+        }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      @keyframes fade-up {
+        from { transform: translateY(10px); opacity: 0; }
+        to   { transform: translateY(0);    opacity: 0.85; }
+      }
+      @keyframes bg-shift {
+        0%, 100% { stop-color: #020c10; }
+        50%      { stop-color: #021a2e; }
+      }
+      @keyframes glow-expand {
+        0%, 100% { rx: 190; opacity: 0.12; }
+        50%      { rx: 220; opacity: 0.22; }
+      }
+
+      .col {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 11px;
+        fill: #00b4d8;
+        opacity: 0.14;
+        animation: fall linear infinite;
+      }
+      .sai {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 88px;
+        letter-spacing: 14px;
+        text-anchor: middle;
+        animation: glow-pulse 3s ease-in-out infinite;
+      }
+      .sub {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 12px;
+        letter-spacing: 2.5px;
+        text-anchor: middle;
+        fill: #00fff5;
+        animation: fade-up 0.8s 0.3s ease both;
+      }
+      .cursor {
+        fill: #00b4d8;
+        animation: blink 1.1s step-end infinite;
+      }
+    </style>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#020c10">
+        <animate attributeName="stop-color" values="#020c10;#021a2e;#020c10" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%"  stop-color="#021520"/>
+      <stop offset="100%" stop-color="#020c10">
+        <animate attributeName="stop-color" values="#020c10;#023050;#020c10" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <clipPath id="clip"><rect width="900" height="200"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- Matrix columns — left wing (x 10–175) -->
+  <g clip-path="url(#clip)">
+    <text class="col" x="10"  style="animation-duration:2.9s;animation-delay:0.0s">0<tspan x="10"  dy="13">1</tspan><tspan x="10"  dy="13">G</tspan><tspan x="10"  dy="13">O</tspan><tspan x="10"  dy="13">0</tspan><tspan x="10"  dy="13">1</tspan><tspan x="10"  dy="13">1</tspan><tspan x="10"  dy="13">0</tspan><tspan x="10"  dy="13">G</tspan><tspan x="10"  dy="13">O</tspan><tspan x="10"  dy="13">0</tspan><tspan x="10"  dy="13">1</tspan><tspan x="10"  dy="13">1</tspan><tspan x="10"  dy="13">0</tspan><tspan x="10"  dy="13">0</tspan><tspan x="10"  dy="13">1</tspan></text>
+    <text class="col" x="28"  style="animation-duration:3.6s;animation-delay:0.7s">K<tspan x="28"  dy="13">8</tspan><tspan x="28"  dy="13">S</tspan><tspan x="28"  dy="13">0</tspan><tspan x="28"  dy="13">1</tspan><tspan x="28"  dy="13">K</tspan><tspan x="28"  dy="13">8</tspan><tspan x="28"  dy="13">S</tspan><tspan x="28"  dy="13">0</tspan><tspan x="28"  dy="13">1</tspan><tspan x="28"  dy="13">0</tspan><tspan x="28"  dy="13">K</tspan><tspan x="28"  dy="13">8</tspan><tspan x="28"  dy="13">S</tspan><tspan x="28"  dy="13">0</tspan><tspan x="28"  dy="13">1</tspan></text>
+    <text class="col" x="46"  style="animation-duration:2.3s;animation-delay:1.4s">A<tspan x="46"  dy="13">P</tspan><tspan x="46"  dy="13">I</tspan><tspan x="46"  dy="13">0</tspan><tspan x="46"  dy="13">1</tspan><tspan x="46"  dy="13">A</tspan><tspan x="46"  dy="13">P</tspan><tspan x="46"  dy="13">I</tspan><tspan x="46"  dy="13">0</tspan><tspan x="46"  dy="13">1</tspan><tspan x="46"  dy="13">A</tspan><tspan x="46"  dy="13">P</tspan><tspan x="46"  dy="13">I</tspan><tspan x="46"  dy="13">0</tspan><tspan x="46"  dy="13">1</tspan><tspan x="46"  dy="13">0</tspan></text>
+    <text class="col" x="64"  style="animation-duration:4.2s;animation-delay:0.3s">0<tspan x="64"  dy="13">1</tspan><tspan x="64"  dy="13">D</tspan><tspan x="64"  dy="13">B</tspan><tspan x="64"  dy="13">0</tspan><tspan x="64"  dy="13">1</tspan><tspan x="64"  dy="13">D</tspan><tspan x="64"  dy="13">B</tspan><tspan x="64"  dy="13">0</tspan><tspan x="64"  dy="13">1</tspan><tspan x="64"  dy="13">D</tspan><tspan x="64"  dy="13">B</tspan><tspan x="64"  dy="13">0</tspan><tspan x="64"  dy="13">1</tspan><tspan x="64"  dy="13">0</tspan><tspan x="64"  dy="13">1</tspan></text>
+    <text class="col" x="82"  style="animation-duration:3.1s;animation-delay:2.0s">C<tspan x="82"  dy="13">T</tspan><tspan x="82"  dy="13">E</tspan><tspan x="82"  dy="13">0</tspan><tspan x="82"  dy="13">1</tspan><tspan x="82"  dy="13">C</tspan><tspan x="82"  dy="13">T</tspan><tspan x="82"  dy="13">E</tspan><tspan x="82"  dy="13">0</tspan><tspan x="82"  dy="13">1</tspan><tspan x="82"  dy="13">C</tspan><tspan x="82"  dy="13">T</tspan><tspan x="82"  dy="13">E</tspan><tspan x="82"  dy="13">0</tspan><tspan x="82"  dy="13">1</tspan><tspan x="82"  dy="13">0</tspan></text>
+    <text class="col" x="100" style="animation-duration:2.7s;animation-delay:1.1s">S<tspan x="100" dy="13">Q</tspan><tspan x="100" dy="13">L</tspan><tspan x="100" dy="13">0</tspan><tspan x="100" dy="13">1</tspan><tspan x="100" dy="13">S</tspan><tspan x="100" dy="13">Q</tspan><tspan x="100" dy="13">L</tspan><tspan x="100" dy="13">0</tspan><tspan x="100" dy="13">1</tspan><tspan x="100" dy="13">S</tspan><tspan x="100" dy="13">Q</tspan><tspan x="100" dy="13">L</tspan><tspan x="100" dy="13">0</tspan><tspan x="100" dy="13">1</tspan><tspan x="100" dy="13">0</tspan></text>
+    <text class="col" x="118" style="animation-duration:3.8s;animation-delay:0.5s">G<tspan x="118" dy="13">R</tspan><tspan x="118" dy="13">P</tspan><tspan x="118" dy="13">C</tspan><tspan x="118" dy="13">0</tspan><tspan x="118" dy="13">1</tspan><tspan x="118" dy="13">G</tspan><tspan x="118" dy="13">R</tspan><tspan x="118" dy="13">P</tspan><tspan x="118" dy="13">C</tspan><tspan x="118" dy="13">0</tspan><tspan x="118" dy="13">1</tspan><tspan x="118" dy="13">G</tspan><tspan x="118" dy="13">R</tspan><tspan x="118" dy="13">P</tspan><tspan x="118" dy="13">C</tspan></text>
+    <text class="col" x="136" style="animation-duration:2.5s;animation-delay:1.8s">0<tspan x="136" dy="13">1</tspan><tspan x="136" dy="13">M</tspan><tspan x="136" dy="13">S</tspan><tspan x="136" dy="13">0</tspan><tspan x="136" dy="13">1</tspan><tspan x="136" dy="13">M</tspan><tspan x="136" dy="13">S</tspan><tspan x="136" dy="13">0</tspan><tspan x="136" dy="13">1</tspan><tspan x="136" dy="13">M</tspan><tspan x="136" dy="13">S</tspan><tspan x="136" dy="13">0</tspan><tspan x="136" dy="13">1</tspan><tspan x="136" dy="13">0</tspan><tspan x="136" dy="13">1</tspan></text>
+    <text class="col" x="154" style="animation-duration:3.3s;animation-delay:2.6s">G<tspan x="154" dy="13">I</tspan><tspan x="154" dy="13">N</tspan><tspan x="154" dy="13">0</tspan><tspan x="154" dy="13">1</tspan><tspan x="154" dy="13">G</tspan><tspan x="154" dy="13">I</tspan><tspan x="154" dy="13">N</tspan><tspan x="154" dy="13">0</tspan><tspan x="154" dy="13">1</tspan><tspan x="154" dy="13">G</tspan><tspan x="154" dy="13">I</tspan><tspan x="154" dy="13">N</tspan><tspan x="154" dy="13">0</tspan><tspan x="154" dy="13">1</tspan><tspan x="154" dy="13">0</tspan></text>
+    <text class="col" x="172" style="animation-duration:4.0s;animation-delay:0.9s">0<tspan x="172" dy="13">1</tspan><tspan x="172" dy="13">G</tspan><tspan x="172" dy="13">O</tspan><tspan x="172" dy="13">0</tspan><tspan x="172" dy="13">1</tspan><tspan x="172" dy="13">G</tspan><tspan x="172" dy="13">O</tspan><tspan x="172" dy="13">0</tspan><tspan x="172" dy="13">1</tspan><tspan x="172" dy="13">0</tspan><tspan x="172" dy="13">1</tspan><tspan x="172" dy="13">G</tspan><tspan x="172" dy="13">O</tspan><tspan x="172" dy="13">0</tspan><tspan x="172" dy="13">1</tspan></text>
+
+    <!-- Matrix columns — right wing (x 728–890) -->
+    <text class="col" x="728" style="animation-duration:3.0s;animation-delay:0.4s">0<tspan x="728" dy="13">1</tspan><tspan x="728" dy="13">G</tspan><tspan x="728" dy="13">O</tspan><tspan x="728" dy="13">0</tspan><tspan x="728" dy="13">1</tspan><tspan x="728" dy="13">G</tspan><tspan x="728" dy="13">O</tspan><tspan x="728" dy="13">0</tspan><tspan x="728" dy="13">1</tspan><tspan x="728" dy="13">0</tspan><tspan x="728" dy="13">1</tspan><tspan x="728" dy="13">G</tspan><tspan x="728" dy="13">O</tspan><tspan x="728" dy="13">0</tspan><tspan x="728" dy="13">1</tspan></text>
+    <text class="col" x="746" style="animation-duration:3.5s;animation-delay:1.3s">G<tspan x="746" dy="13">I</tspan><tspan x="746" dy="13">N</tspan><tspan x="746" dy="13">0</tspan><tspan x="746" dy="13">1</tspan><tspan x="746" dy="13">G</tspan><tspan x="746" dy="13">I</tspan><tspan x="746" dy="13">N</tspan><tspan x="746" dy="13">0</tspan><tspan x="746" dy="13">1</tspan><tspan x="746" dy="13">G</tspan><tspan x="746" dy="13">I</tspan><tspan x="746" dy="13">N</tspan><tspan x="746" dy="13">0</tspan><tspan x="746" dy="13">1</tspan><tspan x="746" dy="13">0</tspan></text>
+    <text class="col" x="764" style="animation-duration:2.4s;animation-delay:2.2s">M<tspan x="764" dy="13">S</tspan><tspan x="764" dy="13">0</tspan><tspan x="764" dy="13">1</tspan><tspan x="764" dy="13">M</tspan><tspan x="764" dy="13">S</tspan><tspan x="764" dy="13">0</tspan><tspan x="764" dy="13">1</tspan><tspan x="764" dy="13">M</tspan><tspan x="764" dy="13">S</tspan><tspan x="764" dy="13">0</tspan><tspan x="764" dy="13">1</tspan><tspan x="764" dy="13">M</tspan><tspan x="764" dy="13">S</tspan><tspan x="764" dy="13">0</tspan><tspan x="764" dy="13">1</tspan></text>
+    <text class="col" x="782" style="animation-duration:3.9s;animation-delay:0.8s">G<tspan x="782" dy="13">R</tspan><tspan x="782" dy="13">P</tspan><tspan x="782" dy="13">C</tspan><tspan x="782" dy="13">0</tspan><tspan x="782" dy="13">1</tspan><tspan x="782" dy="13">G</tspan><tspan x="782" dy="13">R</tspan><tspan x="782" dy="13">P</tspan><tspan x="782" dy="13">C</tspan><tspan x="782" dy="13">0</tspan><tspan x="782" dy="13">1</tspan><tspan x="782" dy="13">G</tspan><tspan x="782" dy="13">R</tspan><tspan x="782" dy="13">P</tspan><tspan x="782" dy="13">C</tspan></text>
+    <text class="col" x="800" style="animation-duration:2.6s;animation-delay:1.7s">S<tspan x="800" dy="13">Q</tspan><tspan x="800" dy="13">L</tspan><tspan x="800" dy="13">0</tspan><tspan x="800" dy="13">1</tspan><tspan x="800" dy="13">S</tspan><tspan x="800" dy="13">Q</tspan><tspan x="800" dy="13">L</tspan><tspan x="800" dy="13">0</tspan><tspan x="800" dy="13">1</tspan><tspan x="800" dy="13">S</tspan><tspan x="800" dy="13">Q</tspan><tspan x="800" dy="13">L</tspan><tspan x="800" dy="13">0</tspan><tspan x="800" dy="13">1</tspan><tspan x="800" dy="13">0</tspan></text>
+    <text class="col" x="818" style="animation-duration:3.2s;animation-delay:0.2s">C<tspan x="818" dy="13">T</tspan><tspan x="818" dy="13">E</tspan><tspan x="818" dy="13">0</tspan><tspan x="818" dy="13">1</tspan><tspan x="818" dy="13">C</tspan><tspan x="818" dy="13">T</tspan><tspan x="818" dy="13">E</tspan><tspan x="818" dy="13">0</tspan><tspan x="818" dy="13">1</tspan><tspan x="818" dy="13">C</tspan><tspan x="818" dy="13">T</tspan><tspan x="818" dy="13">E</tspan><tspan x="818" dy="13">0</tspan><tspan x="818" dy="13">1</tspan><tspan x="818" dy="13">0</tspan></text>
+    <text class="col" x="836" style="animation-duration:4.1s;animation-delay:1.0s">D<tspan x="836" dy="13">B</tspan><tspan x="836" dy="13">0</tspan><tspan x="836" dy="13">1</tspan><tspan x="836" dy="13">D</tspan><tspan x="836" dy="13">B</tspan><tspan x="836" dy="13">0</tspan><tspan x="836" dy="13">1</tspan><tspan x="836" dy="13">D</tspan><tspan x="836" dy="13">B</tspan><tspan x="836" dy="13">0</tspan><tspan x="836" dy="13">1</tspan><tspan x="836" dy="13">D</tspan><tspan x="836" dy="13">B</tspan><tspan x="836" dy="13">0</tspan><tspan x="836" dy="13">1</tspan></text>
+    <text class="col" x="854" style="animation-duration:2.8s;animation-delay:2.4s">A<tspan x="854" dy="13">P</tspan><tspan x="854" dy="13">I</tspan><tspan x="854" dy="13">0</tspan><tspan x="854" dy="13">1</tspan><tspan x="854" dy="13">A</tspan><tspan x="854" dy="13">P</tspan><tspan x="854" dy="13">I</tspan><tspan x="854" dy="13">0</tspan><tspan x="854" dy="13">1</tspan><tspan x="854" dy="13">A</tspan><tspan x="854" dy="13">P</tspan><tspan x="854" dy="13">I</tspan><tspan x="854" dy="13">0</tspan><tspan x="854" dy="13">1</tspan><tspan x="854" dy="13">0</tspan></text>
+    <text class="col" x="872" style="animation-duration:3.7s;animation-delay:0.6s">K<tspan x="872" dy="13">8</tspan><tspan x="872" dy="13">S</tspan><tspan x="872" dy="13">0</tspan><tspan x="872" dy="13">1</tspan><tspan x="872" dy="13">K</tspan><tspan x="872" dy="13">8</tspan><tspan x="872" dy="13">S</tspan><tspan x="872" dy="13">0</tspan><tspan x="872" dy="13">1</tspan><tspan x="872" dy="13">K</tspan><tspan x="872" dy="13">8</tspan><tspan x="872" dy="13">S</tspan><tspan x="872" dy="13">0</tspan><tspan x="872" dy="13">1</tspan><tspan x="872" dy="13">0</tspan></text>
+    <text class="col" x="890" style="animation-duration:2.2s;animation-delay:1.5s">0<tspan x="890" dy="13">1</tspan><tspan x="890" dy="13">G</tspan><tspan x="890" dy="13">O</tspan><tspan x="890" dy="13">0</tspan><tspan x="890" dy="13">1</tspan><tspan x="890" dy="13">G</tspan><tspan x="890" dy="13">O</tspan><tspan x="890" dy="13">0</tspan><tspan x="890" dy="13">1</tspan><tspan x="890" dy="13">0</tspan><tspan x="890" dy="13">1</tspan><tspan x="890" dy="13">G</tspan><tspan x="890" dy="13">O</tspan><tspan x="890" dy="13">0</tspan><tspan x="890" dy="13">1</tspan></text>
+
+    <!-- Fade-out gradient masks on each side -->
+    <rect x="0"   y="0" width="200" height="200" fill="url(#fade-left)"/>
+    <rect x="700" y="0" width="200" height="200" fill="url(#fade-right)"/>
+  </g>
+
+  <!-- Fade masks so columns blend into center -->
+  <defs>
+    <linearGradient id="fade-left" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#020c10" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#020c10" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="fade-right" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#020c10" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#020c10" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Glow backdrop behind SAI -->
+  <ellipse cx="450" cy="98" rx="190" ry="68" fill="#023e8a" opacity="0.14">
+    <animate attributeName="rx"      values="190;215;190" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.14;0.24;0.14" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- SAI -->
+  <text class="sai" x="450" y="118" fill="#00b4d8">SAI</text>
+
+  <!-- Subtitle -->
+  <text class="sub" x="450" y="154">// Go Backend Dev · Microservices · Cloud Native</text>
+
+  <!-- Blinking cursor after subtitle -->
+  <rect class="cursor" x="714" y="141" width="7" height="13" opacity="0.9"/>
+
+  <!-- Top + bottom accent lines -->
+  <rect x="0" y="0"   width="900" height="2" fill="#00b4d8" opacity="0.55"/>
+  <rect x="0" y="198" width="900" height="2" fill="#00b4d8" opacity="0.55"/>
+</svg>
