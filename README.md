@@ -1,116 +1,169 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00b4d8&height=120&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=220&section=header&text=SAI&fontSize=100&fontColor=00b4d8&animation=twinkling&fontAlignY=55&desc=%2F%2F%20Go%20Backend%20Dev%20%7C%20Microservices%20%7C%20Cloud%20Native&descAlignY=78&descSize=16&descColor=00fff5" width="100%"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=1000&color=00B4D8&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Sai+%F0%9F%91%8B;Go+Backend+Developer;Microservices+%7C+Cloud+%7C+Data+Platforms;Currently+exploring+K8s+%26+Next.js+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=20&duration=2000&pause=800&color=00B4D8&background=00000000&center=true&vCenter=true&width=750&height=45&lines=~/varmaexe+$+echo+%22Go+Backend+Developer%22;~/varmaexe+$+echo+%22Microservices+%26+Distributed+Systems%22;~/varmaexe+$+echo+%22Kubernetes+%7C+Docker+%7C+Cloud+Native%22;~/varmaexe+$+echo+%22TB-Scale+Data+Platforms%22;~/varmaexe+$+echo+%22AI-Powered+CLI+Builder%22;~/varmaexe+$+echo+%22Always+Shipping%22" alt="Typing SVG" />
 
 </div>
-
----
-
-## 🧑‍💻 About Me
-
-- 🏗️ Backend developer specializing in **Go**, building production-grade microservices
-- 📊 Recently shipped a **TB-scale data analytics platform** (30+ services, custom service mesh)
-- ☸️ Currently leveling up on **Kubernetes**, **Docker**, and **Next.js / React**
-- 🤖 Building a personal **AI-powered fitness coaching CLI** with Go + Claude Code
-- 📍 Based in **Hyderabad, India**
-- 💡 I care about clean architecture, query performance, and systems that scale
-
----
-
-## 🛠️ Tech Stack
 
 <div align="center">
 
-### ⚙️ Backend
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gin-00B4D8?style=for-the-badge&logo=go&logoColor=white"/>
-<img src="https://img.shields.io/badge/GORM-00B4D8?style=for-the-badge&logo=go&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST%20APIs-0d1117?style=for-the-badge&logo=fastapi&logoColor=00B4D8"/>
-
-<br/>
-
-### 🗄️ Data
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/CTEs%20%26%20Query%20Optimization-00B4D8?style=for-the-badge&logo=databricks&logoColor=white"/>
-
-<br/>
-
-### ☁️ DevOps & Cloud (Learning)
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/WSL2-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
-
-<br/>
-
-### 🎨 Frontend (Ramping Up)
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-
-<br/>
-
-### 🔧 Tools
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude%20Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00B4D8"/>
+[![LinkedIn](https://img.shields.io/badge/_%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saiverma)
+[![Gmail](https://img.shields.io/badge/_%20Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vectorvarma0303@gmail.com)
+[![GitHub](https://img.shields.io/badge/_%20GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/varmaexe)
+![Visitors](https://komarev.com/ghpvc/?username=varmaexe&color=00b4d8&style=for-the-badge&label=VISITORS)
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🚀 Highlight Projects
+## `// about.go`
 
-### 📊 SAVI Platform — Indiana University
-> TB-scale public health analytics platform powering the IN-POLIS initiative
+```go
+package main
 
-- Built **30+ Go microservices** with a three-layer MuleSoft-style architecture (Experience → Process → System)
-- Designed a **custom service mesh** for inter-service communication and dependency injection
-- Reduced 100+ sequential DB queries to a **single CTE** — ~240ms response on category hierarchy API
-- Delivered CSV download, chart data, flat table, and dashboard APIs across demographics, vitals, and community profile domains
-- Automated bulk changes across 18 repos with Python scripting
+import "fmt"
 
----
+type Developer struct {
+	Name        string
+	Role        string
+	Location    string
+	Stack       []string
+	Learning    []string
+	SideProject string
+	Mantra      string
+}
 
-### 🏋️ fitness-coach CLI *(Personal Project)*
-> AI-powered fitness coaching assistant built with Go + Claude Code
+func main() {
+	me := Developer{
+		Name:        "Sai",
+		Role:        "Go Backend Developer",
+		Location:    "Hyderabad, India 🇮🇳",
+		Stack:       []string{"Go", "Gin", "GORM", "SQL Server", "Microservices"},
+		Learning:    []string{"Kubernetes", "Docker", "Next.js", "React"},
+		SideProject: "AI-powered fitness coaching CLI (Go + Claude Code)",
+		// Mantra: "Reduce 100 DB queries to 1. Always."
+	}
+	fmt.Printf("Building things that scale: %+v\n", me)
+}
+```
 
-- `cat workout_log.txt | claude` — pipe-based workflow for real-time coaching insights
-- Tracks PPLA split performance, sleep recovery data, and progressive overload signals
-- Token-efficient design with session-based context management
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
----
-
-## 📈 GitHub Stats
+## `// skills.proficiency`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&title_color=00b4d8&icon_color=00b4d8" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&title_color=00b4d8" height="165"/>
+![Go](https://img.shields.io/badge/Go-92%25-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=020c10)
+![Microservices](https://img.shields.io/badge/Microservices-90%25-00B4D8?style=flat-square&labelColor=020c10)
+![SQL/GORM](https://img.shields.io/badge/SQL%2FGORM-88%25-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white&labelColor=020c10)
+![Docker](https://img.shields.io/badge/Docker-65%25-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=020c10)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-45%25-326CE5?style=flat-square&logo=kubernetes&logoColor=white&labelColor=020c10)
+![Next.js](https://img.shields.io/badge/Next.js-35%25-ffffff?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=020c10)
 
 </div>
 
----
+<br/>
 
-## 📬 Connect
+## `// stack.icons`
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saiverma/)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vectorvarma0303@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/varmaexe)
+**CORE**
+
+<img src="https://skillicons.dev/icons?i=go,postgres,mysql,linux,git,github,vscode,bash&theme=dark&perline=8" />
+
+**CLOUD & DEVOPS**
+
+<img src="https://skillicons.dev/icons?i=kubernetes,docker,nginx&theme=dark&perline=8" />
+
+**FRONTEND** *(LEARNING)*
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,html,css&theme=dark&perline=8" />
+
+**TOOLS**
+
+<img src="https://skillicons.dev/icons?i=postman,python,vim&theme=dark&perline=8" />
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=00b4d8&style=flat&label=visitors" alt="visitors"/>
-</p>
+## `// currently_building`
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,100:0d1117&height=100&section=footer" width="100%"/>
+<div align="center">
+
+| | Project | Stack | Status |
+|--|---------|-------|--------|
+| 🏋️ | **fitness-coach** — AI CLI coach via `cat log.txt \| claude` | `Go` `Claude Code` `CLI` | 🟢 `ACTIVE` |
+| ☸️ | **K8s Self-Study** — CKA curriculum, core objects to security | `Kubernetes` `Docker` `YAML` | 🟡 `WIP` |
+| ⚛️ | **Next.js Ramp-up** — Full stack app, RedWood Trust prep | `Next.js` `React` `TypeScript` | 🟡 `WIP` |
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## `// highlight_work`
+
+<details>
+<summary><b>📊 SAVI Platform — Indiana University &nbsp;|&nbsp; <i>click to expand</i></b></summary>
+<br>
+
+> TB-scale public health analytics platform powering the IN-POLIS statewide initiative
+
+<div align="center">
+
+| 18+ | ~240ms | 100 → 1 | TB |
+|-----|--------|---------|-----|
+| Go Microservices | CTE Response Time | DB Query Reduction | Data Scale |
+
+</div>
+
+- 🏗️ Designed 3-layer architecture (Experience → Process → System) across 18+ services
+- 🔧 Built custom service mesh for inter-service comms and dependency injection
+- ⚡ Reduced 100+ sequential DB queries down to a single optimized CTE
+- 🧪 Led unit test coverage across all 18 repos — handlers, services, middleware, mesh
+- 🤖 Automated bulk changes across all microservice repos with Python scripting
+- 📦 Delivered CSV download, chart data, flat table, and dashboard APIs across domains
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>🏋️ fitness-coach CLI — Personal Project &nbsp;|&nbsp; <i>click to expand</i></b></summary>
+<br>
+
+> Personal AI fitness coach powered by Claude Code
+
+```bash
+$ cat workout_log.txt | claude --coaching-mode
+```
+
+- Pipe-based workflow for real-time coaching insights via Claude Code
+- Tracks PPLA split performance, sleep recovery data, and progressive overload
+- Token-optimized design with session-based context management per split
+
+</details>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## `// contribution_snake`
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/varmaexe/varmaexe/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/varmaexe/varmaexe/output/github-contribution-grid-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/varmaexe/varmaexe/output/github-contribution-grid-snake-dark.svg"/>
+  </picture>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<div align="center">
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020c10,30:023e8a,50:00b4d8,70:023e8a,100:020c10&height=120&section=footer&text=%E2%9A%A1%20BUILT%20WITH%20GO%20%C2%B7%20SHIPPED%20WITH%20INTENT%20%C2%B7%20OPTIMIZED%20TO%20THE%20BONE%20%E2%9A%A1&fontSize=12&fontColor=00fff5&animation=twinkling&fontAlignY=55" width="100%"/>
