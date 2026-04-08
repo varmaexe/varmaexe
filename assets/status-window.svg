@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 120" width="860" height="120">
+  <defs>
+    <style>
+      @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+      @keyframes appear{0%{opacity:0;transform:translateX(-8px)}100%{opacity:1;transform:translateX(0)}}
+      @keyframes blink{50%{opacity:0}}
+      @keyframes typeIn1{0%,10%{opacity:0}11%,100%{opacity:1}}
+      @keyframes typeIn2{0%,25%{opacity:0}26%,100%{opacity:1}}
+      @keyframes typeIn3{0%,40%{opacity:0}41%,100%{opacity:1}}
+      @keyframes typeIn4{0%,55%{opacity:0}56%,100%{opacity:1}}
+      @keyframes typeIn5{0%,70%{opacity:0}71%,100%{opacity:1}}
+      .bp{animation:pulse 2.5s ease-in-out infinite}
+      .l1{animation:typeIn1 3s ease-out both}
+      .l2{animation:typeIn2 3s ease-out both}
+      .l3{animation:typeIn3 3s ease-out both}
+      .l4{animation:typeIn4 3s ease-out both}
+      .l5{animation:typeIn5 3s ease-out both}
+      .cur{animation:blink .8s step-end infinite}
+    </style>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030008"/>
+      <stop offset="50%" stop-color="#0a001a"/>
+      <stop offset="100%" stop-color="#030008"/>
+    </linearGradient>
+    <linearGradient id="hb2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#030008" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#6d28d9" stop-opacity=".7"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="70%" stop-color="#6d28d9" stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#030008" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#2e1065" stroke-width=".3" opacity=".4"/>
+    </pattern>
+  </defs>
+
+  <rect width="860" height="120" fill="url(#bg2)"/>
+  <rect width="860" height="120" fill="url(#grid2)"/>
+
+  <!-- borders -->
+  <rect x="0" y="0" width="860" height="2" fill="url(#hb2)" class="bp"/>
+  <rect x="0" y="118" width="860" height="2" fill="url(#hb2)" class="bp"/>
+  <rect x="0" y="0" width="1.5" height="120" fill="#3b0764" opacity=".6"/>
+  <rect x="858.5" y="0" width="1.5" height="120" fill="#3b0764" opacity=".6"/>
+
+  <!-- corners -->
+  <polyline points="6,22 6,6 22,6" fill="none" stroke="#7c3aed" stroke-width="1.5" class="bp"/>
+  <polyline points="854,22 854,6 838,6" fill="none" stroke="#7c3aed" stroke-width="1.5" class="bp"/>
+  <polyline points="6,98 6,114 22,114" fill="none" stroke="#7c3aed" stroke-width="1.5" class="bp"/>
+  <polyline points="854,98 854,114 838,114" fill="none" stroke="#7c3aed" stroke-width="1.5" class="bp"/>
+
+  <!-- left accent -->
+  <rect x="0" y="2" width="2.5" height="116" fill="#4c1d95" opacity=".3" class="bp"/>
+  <rect x="857.5" y="2" width="2.5" height="116" fill="#4c1d95" opacity=".3" class="bp"/>
+
+  <!-- title -->
+  <text x="430" y="24" text-anchor="middle" font-family="monospace" font-size="10" fill="#6d28d9" letter-spacing="4" class="l1">◈ SYSTEM NOTIFICATION</text>
+
+  <!-- separator lines -->
+  <line x1="30" y1="30" x2="830" y2="30" stroke="#2e1065" stroke-width=".5" class="l1"/>
+  <line x1="30" y1="104" x2="830" y2="104" stroke="#2e1065" stroke-width=".5"/>
+
+  <!-- content lines -->
+  <text x="50" y="50" font-family="monospace" font-size="11" fill="#4c1d95" class="l2">══════════════════════════════════════════════════════════════════</text>
+  <text x="50" y="68" font-family="monospace" font-size="11" fill="#c4b5fd" class="l3">  A new <tspan fill="#a78bfa" font-weight="bold">S-Class hunter</tspan> has been detected.  Initiating status window...</text>
+  <text x="50" y="84" font-family="monospace" font-size="11" fill="#4c1d95" class="l4">══════════════════════════════════════════════════════════════════</text>
+
+  <!-- blinking cursor at end -->
+  <rect class="cur l5" x="642" y="73" width="7" height="12" fill="#a78bfa" rx="1"/>
+</svg>
